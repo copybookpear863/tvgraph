@@ -10,7 +10,7 @@ from django.http import HttpResponse
 
 def index(request):
 #==============================================================================
-    return HttpResponse("What's up, world. You're at the tvgraph index which has not been made yet because I don't know how to continue. So you'll just have to wait for now. Sorry. See ya later, world. привет мам и пап")
+    return HttpResponse("What's up, world. You're at the tvgraph index which has not been made yet because I don't know how to continue. So you'll just have to wait for now. Sorry. See ya later, world.")
 #==============================================================================
 
 def detail(request, name):
