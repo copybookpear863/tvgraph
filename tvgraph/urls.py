@@ -11,7 +11,7 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^details/(?P<name>\w+)/$', views.detail, name='detail'),
-    url(r'^edit/(?P<name>\w+)/$', views.edit, name='edit'),
+    url(r'^details/(?P<name>.*)/$', views.detail, name='detail'),
+    url(r'^find/$', views.find, name='find'),
     url(r'^message/(?P<name>\w+)/$', views.message, name='message')
 ]
